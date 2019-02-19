@@ -2,7 +2,8 @@
 
 El problema a solucionar:
 	Ser requería obtener información de transacciones de ventas de una base de datos sql y enviarla a un API.
-Incovenientes que se presentaron:
+
+
 	Antes de siquiera realizar el código era necesario estudiar la base de datos del cliente en búsqueda de información asociada a tranasacciones de ventas,
 	en esa búsqueda se encontró que existían transacciones que separaban en n piezas donde existía una estructura principal que indicaba la cantidad de productos 
 	asociados a la venta, el problema era que no era posible distinguir entre estas facturas relacionadas cuál era la cantidad de productos correcta asociada a cada construcción , para ellos se contruyó un algoritmo que se encargaba de cubrir los siguientes pasos:
